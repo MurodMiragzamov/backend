@@ -6,6 +6,7 @@ const { GET_ORDERS } = require("./admin/admin");
 const { GET_ORDER } = require("./admin/admin");
 const { NEW_WAITING_PATIENT } = require("./orders/orders");
 const { DELETE_OR } = require("./clear-order/cls");
+const { HISTORY } = require("./history/history");
 
 const router = new Router();
 
@@ -16,6 +17,7 @@ router
   .get("/admin/orders", GET_ORDERS)
   .get("/admin/:Id", GET_ORDER)
   .post("/newOrder", NEW_WAITING_PATIENT)
-  .delete("/submitOrder", DELETE_OR);
+  .delete("/submitOrder", DELETE_OR)
+  .get("/history", HISTORY);
 
 module.exports = router;
