@@ -16,8 +16,11 @@ CREATE TABLE patients(
     patient_id BIGSERIAL PRIMARY KEY ,
     patient_username VARCHAR(32) NOT NULL UNIQUE,
     patient_age SMALLINT NOT NULL,
-    patient_password VARCHAR(32) NOT NULL
+    patient_password VARCHAR(32) NOT NULL,
+    patient_token TEXT  
 );
+
+
 
 CREATE TABLE waiting_patients(
     waiting_patient_id BIGSERIAL PRIMARY KEY,
