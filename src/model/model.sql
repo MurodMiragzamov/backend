@@ -39,5 +39,8 @@ CREATE TABLE history(
     history_firstname VARCHAR(32),
     history_lastname VARCHAR(32),
     history_phone VARCHAR(15),
+    history_direction VARCHAR(32),
     history_addtime TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
 );
+
+
