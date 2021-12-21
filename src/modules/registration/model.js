@@ -4,7 +4,7 @@ const NEW_PATIENT = `
 INSERT INTO 
     patients(patient_username,patient_age,patient_password,patient_token)
 VALUES($1,$2,$3,$4)
-RETURNING *
+
 `;
 
 const newPatient = (

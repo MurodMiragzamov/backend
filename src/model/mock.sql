@@ -1,5 +1,7 @@
 INSERT INTO directions (direction_name,direction_doctor) VALUES('Lor' , 'Hasanboy dusmatov'),('Pediator','Bekmirza Yoqubov'),('Travmotolog' , 'Nurulloh Esdanchiqdi');
 
+INSERT INTO directions (direction_name,direction_doctor) VALUES('Koz' , 'Fazliddin dusmatov'),('Oyog','Sanjar Yoqubov'),('Kardiolog' , 'John Esdanchiqdi'),('Qorn','Bektemr Qozivoy');
+
 INSERT INTO admins (admin_name,admin_password) VALUES('Adminali','ali123');
 
 INSERT INTO patients(patient_username,patient_age,patient_password) VALUES('Bek',10,'bek123'),('John',23,'jo123'),('Kasalhone',18,'kas123'),('Kmdur',100,'kmd123');

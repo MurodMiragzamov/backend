@@ -1,6 +1,15 @@
 const model = require("./model");
 
 module.exports = {
+  GET_ADMINS: async (_, res) => {
+    try {
+      const admins = await model.getAdmins();
+      res.json(admins);
+    } catch (err) {
+      console.log(err);
+    }
+  },
+
   GET_PATIENTS: async (_, res) => {
     try {
       const patients = await model.getPatients();
