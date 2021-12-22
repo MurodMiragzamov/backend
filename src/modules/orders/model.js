@@ -6,7 +6,7 @@ INSERT INTO
     (waiting_patient_username,waiting_patient_firstname,waiting_patient_lastname,waiting_patient_phone,waiting_patient_direction_name,waiting_patient_req)
   VALUES
   ($1,$2,$3,$4,$5,$6)
-RETURNING *
+RETURNING waiting_patient_addtime
 `;
 
 const newWaitingPatient = (

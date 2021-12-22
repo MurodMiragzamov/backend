@@ -1,6 +1,4 @@
-INSERT INTO directions (direction_name,direction_doctor) VALUES('Lor' , 'Hasanboy dusmatov'),('Pediator','Bekmirza Yoqubov'),('Travmotolog' , 'Nurulloh Esdanchiqdi');
-
-INSERT INTO directions (direction_name,direction_doctor) VALUES('Koz' , 'Fazliddin dusmatov'),('Oyog','Sanjar Yoqubov'),('Kardiolog' , 'John Esdanchiqdi'),('Qorn','Bektemr Qozivoy');
+INSERT INTO directions (direction_name,direction_doctor) VALUES('Lor' , 'Hasanboy dusmatov'),('Pediator','Bekmirza Yoqubov'),('Travmotolog' , 'Nurulloh Esdanchiqdi'),('bow','fdsfsd sdfsdf'),('oyoq','wefwef weferge'),('koz','fewfewfewf wefewf'),('qorn','fsdfsd sdfsdf'),('miyya','fsdf dfsdf');
 
 INSERT INTO admins (admin_name,admin_password) VALUES('Adminali','ali123');
 

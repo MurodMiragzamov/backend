@@ -19,7 +19,7 @@ router
   .get("/admin/orders", GET_ORDERS)
   .get("/admin/:Id", GET_ORDER)
   .post("/newOrder", NEW_WAITING_PATIENT)
-  .delete("/submitOrder", DELETE_OR)
+  .post("/submitOrder", DELETE_OR)
   .get("/history", HISTORY);
 
 module.exports = router;
